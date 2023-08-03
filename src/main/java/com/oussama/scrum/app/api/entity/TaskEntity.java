@@ -13,10 +13,14 @@ import java.time.LocalDate;
 @Table(name = "tasks")
 public class TaskEntity {
     @Id
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Column(name = "title")
     private String title;
+    @Column(name = "description")
     private String description;
+    @Column(name = "endDate")
     private LocalDate endDate;
 
     @Transient
