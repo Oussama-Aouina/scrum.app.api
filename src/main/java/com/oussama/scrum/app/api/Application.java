@@ -19,7 +19,7 @@ public class Application {
 		public void addResourceHandlers(ResourceHandlerRegistry registry) {
 			// Serve images from the upload directory
 			registry.addResourceHandler("/images/**")
-					.addResourceLocations("file:/home/oussma/Downloads/ScrumFlowTracker/scrum.app.api/src/images/");
+					.addResourceLocations("file:/Users/test/Development/scrumTracker app/scrum.app.api/src/images/");
 		}
 	}
 	@Configuration

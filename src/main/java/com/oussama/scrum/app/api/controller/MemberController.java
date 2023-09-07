@@ -71,7 +71,7 @@ public class MemberController {
     }
 
    // saving images on the server:
-    private final String IMG_UPLOAD_DIR = "/home/oussma/Downloads/ScrumFlowTracker/scrum.app.api/src/images/";
+    private final String IMG_UPLOAD_DIR = "/Users/test/Development/scrumTracker app/scrum.app.api/src/images/";
 
     public  String saveImageToServerAndGetImageUrl( MultipartFile file) {
         try {
