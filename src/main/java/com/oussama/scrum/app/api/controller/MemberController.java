@@ -21,7 +21,6 @@ import java.util.UUID;
 
 @RestController
 //@CrossOrigin(value = {"http://localhost:3000", "http://localhost:3000/add"})
-@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/api/v1")
 public class MemberController {
     @Autowired
@@ -31,7 +30,9 @@ public class MemberController {
         MemberService = memberService;
     }
 
+    @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping("/members")
+
     public Member createMember(@RequestParam("memberData") String memberData, @RequestParam("file") MultipartFile file) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
