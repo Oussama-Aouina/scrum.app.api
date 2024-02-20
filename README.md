@@ -1,4 +1,5 @@
 # ScrumFlowTracker (Backend)
+![scrumbg](https://github.com/Oussama-Aouina/scrum.app.api/assets/92945284/2b9b93bf-c326-4701-9353-def0194555cf)
 
 
 
